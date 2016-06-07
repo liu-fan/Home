@@ -1,0 +1,92 @@
+[ 2016-06-05T11:31:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-06-05T11:32:30+08:00 ] 127.0.0.1 /index.php/Admin/User/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.1837s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0117s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.220879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-06-05T11:54:09+08:00 ] 127.0.0.1 /index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SELECT * FROM `hf_dept`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2016-06-05T11:54:52+08:00 ] 127.0.0.1 /index.php/Admin/User/chart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0839s ]
+SQL: SELECT t2.name as dept_name,count(*) as count FROM hf_user as t1,hf_dept as t2 WHERE ( t1.dept_id = t2.id ) GROUP BY dept_name  [ RunTime:0.0588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+

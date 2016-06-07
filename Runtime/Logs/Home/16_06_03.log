@@ -1,0 +1,72 @@
+[ 2016-06-03T18:29:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 213 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 215 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 216 行.
+NOTIC: [8] Undefined variable: page F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2016-06-03T18:29:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 213 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 215 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 216 行.
+NOTIC: [8] Undefined variable: page F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2016-06-03T19:43:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 213 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 215 行.
+NOTIC: [8] Undefined variable: designer F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 216 行.
+NOTIC: [8] Undefined variable: page F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+

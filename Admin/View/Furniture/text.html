@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+    <script>
+    function Jumppage(page){
+        var pagesize = 20;
+        var url = '__SELF__';
+        $("<div></div>").load(url,{page:page,pagesize:pagesize},function(){
+
+            var data = $(this).find("#tablelist").html();
+            $('#tablelist').html(data);
+            $(this).remove();
+        });
+
+
+    }
+    </script>
+</head>
+<body>
+    <!-- 页码 -->
+    <div id="pages">
+        <for start="1" end="$pagenum" step="1" name="i"> <span><a onclick="Jumppage({$i});" href="#">{$i}</a></span>   </for>
+    </div>
+    <!-- 内容 -->
+    <div id="tablelist">
+        <table border=1>
+            <tr>
+                    <td>uid</td>
+                    <td>名称</td>
+                </tr>
+            <volist name="data" id="user">
+            <tr>
+                    <td>{$user.uid}</td>
+                    <td>{$user.username}</td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</body>
+</html>
