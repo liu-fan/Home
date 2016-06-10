@@ -1,106 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a58d5477-7bf3-4b84-b177-5441a09f189f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg_content.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg_footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/bg_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/big_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/big_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/big_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/big_img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/big_img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/buttons_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/close_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/gallery_thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/gallery_thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/gallery_thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/gallery_thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/gallery_thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/googleMapLoader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon1_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon2_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/icon3_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/marker_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/marker_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/marker_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page1_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page2_img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page2_img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page2_img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page2_img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page4_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/page4_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/scroll_drag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/scroll_track.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Home.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Controller/DeptController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/View/Dept/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/View/Dept/dept.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/View/Dept/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/View/Dept/index(1).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Common/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Conf/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Controller/AjaxController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Controller/IndexController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Controller/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Controller/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Model/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/View/Index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/View/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/showlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/bin/MailHandler.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/bin/MailHandler.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/css/idea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/html-xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/documentation/ContactForm/js/jquery-1.7.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/PIE.htc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/bgStretch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/cScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/content_switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/googleMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jcarousellite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jquery-1.6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jquery.color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/jquery.mousewheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Home/js/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/4d91c5ab054da70a500180ebca71e992.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Logs/Admin/16_06_08.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Logs/Home/16_06_08.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Logs/Home/16_06_10.log" />
+    <list default="true" id="a58d5477-7bf3-4b84-b177-5441a09f189f" name="Default" comment="后台修改">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -702,7 +604,7 @@
       <workItem from="1465172508002" duration="12821000" />
       <workItem from="1465272543176" duration="607000" />
       <workItem from="1465343498344" duration="5019000" />
-      <workItem from="1465554236911" duration="379000" />
+      <workItem from="1465554236911" duration="478000" />
     </task>
     <task id="LOCAL-00001" summary="导入前台模板">
       <created>1464856258761</created>
@@ -774,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465554380110</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="后台修改">
+      <created>1465554675142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1465554675142</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65618000" />
+    <option name="totallyTimeSpent" value="65717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -993,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +911,7 @@
         <state relative-caret-position="443">
           <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
           <folding>
-            <element signature="e#116#137#0#PHP" expanded="true" />
+            <element signature="e#116#137#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,6 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,6 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +976,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,6 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
