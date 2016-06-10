@@ -1,0 +1,2611 @@
+[ 2016-06-08T07:53:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-06-08T07:53:08+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0057s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: a F:\Home\Admin\Controller\FurnitureController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-06-08T07:53:10+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: a F:\Home\Admin\Controller\FurnitureController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-06-08T07:53:14+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+NOTIC: [8] Undefined index: search_sort F:\Home\Admin\Controller\FurnitureController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0260s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and t1.name like '%4%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id =  and t1.name like '%4%' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and t1.name like '%4%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id =  and t1.name like '%4%' ) LIMIT 1  
+
+[ 2016-06-08T07:56:40+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0066s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: a F:\Home\Admin\Controller\FurnitureController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-06-08T07:57:20+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0293s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: a F:\Home\Admin\Controller\FurnitureController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-06-08T07:57:26+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 4 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 4 ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: key F:\Home\Admin\Controller\FurnitureController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-06-08T07:57:42+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: key F:\Home\Admin\Controller\FurnitureController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-06-08T07:57:50+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined index: search_sort F:\Home\Admin\Controller\FurnitureController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0296s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and t1.name like '%as%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id =  and t1.name like '%as%' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and t1.name like '%as%' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id =  and t1.name like '%as%' ) LIMIT 1  
+
+[ 2016-06-08T08:00:06+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0068s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 0,2   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-08T08:00:08+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2016-06-08T08:00:10+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0051s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 4,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-06-08T08:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0489s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0041s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-06-08T08:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 4,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2016-06-08T08:00:14+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0059s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-06-08T08:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0044s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 4,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-06-08T08:00:17+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/search_sort/2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 2 and t1.name like '%as%' ) LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-06-08T08:02:01+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: a F:\Home\Admin\Controller\FurnitureController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-06-08T08:03:57+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0066s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%%' ) LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-06-08T08:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005176s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0076s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-06-08T08:06:11+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2016-06-08T08:06:11+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0061s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-06-08T08:07:57+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0493s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+
+[ 2016-06-08T08:08:26+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0488s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0044s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-08T08:09:21+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-06-08T08:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0561s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : attributes construct error F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$key != '' ' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                               ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$key != '' ' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                               ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition='$key != '' '
+
+[ 2016-06-08T08:11:07+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.1785s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : attributes construct error F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$key != \'\' ' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                                ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$key != \'\' ' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                                ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition='$key != \'\' '
+
+[ 2016-06-08T08:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-06-08T08:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0704s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0665s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004491s ]
+
+[ 2016-06-08T08:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0044s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-06-08T08:16:08+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-08T08:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-06-08T08:17:10+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%  %' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0353s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%  %' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-06-08T08:17:29+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%    %' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0189s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%    %' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-06-08T08:17:30+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%      %' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0349s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%      %' ) LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-06-08T08:17:31+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%        %' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0572s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%        %' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-06-08T08:17:32+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%          %' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0462s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%          %' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-06-08T08:20:03+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0132s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : attributes construct error F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$keywords eq \'\'' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                                     ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: &lt;tpl&gt;&lt;tag condition='$keywords eq \'\'' /&gt;&lt;/tpl&gt; F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]:                                     ^ F:\Home\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition='$keywords eq \'\''
+
+[ 2016-06-08T08:20:54+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0480s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-06-08T08:23:50+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0054s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-06-08T08:25:05+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-06-08T08:25:07+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-06-08T08:25:08+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 4,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-06-08T08:25:12+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0051s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.cate_id = 4 ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-06-08T08:25:19+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0279s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2016-06-08T08:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0062s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-06-08T08:25:23+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 4,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-06-08T08:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0045s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-06-08T08:25:26+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture/keywords/as/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id and t1.name like '%as%' ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-06-08T08:25:49+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-06-08T08:26:06+08:00 ] 127.0.0.1 /index.php/Admin/Category/del/ids/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0058s ]
+SQL: DELETE FROM `hf_category` WHERE `id` = 5 [ RunTime:0.0652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-06-08T08:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-06-08T08:26:29+08:00 ] 127.0.0.1 /index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\8057368f14cf9bc28ccee1f8f9a0e314.php 第 83 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\8057368f14cf9bc28ccee1f8f9a0e314.php 第 83 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\8057368f14cf9bc28ccee1f8f9a0e314.php 第 83 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\8057368f14cf9bc28ccee1f8f9a0e314.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-06-08T08:26:42+08:00 ] 127.0.0.1 /index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0181s ]
+SQL: INSERT INTO `hf_category` (`name`,`pid`) VALUES ('ad','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2016-06-08T08:26:44+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-06-08T08:27:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hf_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\f74c697e89b1de755c05aba96387502c.php 第 84 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\f74c697e89b1de755c05aba96387502c.php 第 84 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\f74c697e89b1de755c05aba96387502c.php 第 84 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\f74c697e89b1de755c05aba96387502c.php 第 84 行.
+NOTIC: [8] Undefined index: ge F:\Home\Runtime\Cache\Admin\f74c697e89b1de755c05aba96387502c.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-06-08T08:27:32+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-06-08T08:27:34+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-06-08T08:27:38+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-06-08T08:27:42+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-06-08T08:27:52+08:00 ] 127.0.0.1 /index.php/Admin/User/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+ERR: 非法操作:design
+
+[ 2016-06-08T08:27:56+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-06-08T08:27:57+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.1337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-06-08T08:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-06-08T08:28:00+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0043s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-06-08T12:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003593s ]
+
+[ 2016-06-08T12:15:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-06-08T12:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-06-08T12:16:07+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-06-08T12:16:08+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-06-08T12:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-06-08T12:16:12+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-06-08T12:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-06-08T12:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-06-08T12:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-06-08T12:16:17+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2016-06-08T12:18:20+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-06-08T12:18:21+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0543s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0065s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0682s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-06-08T12:18:22+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-06-08T12:18:23+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0041s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2016-06-08T12:18:24+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 96 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 100 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 102 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-06-08T12:18:25+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0740s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-06-08T17:28:08+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0070s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-06-08T17:28:10+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0561s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0052s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-06-08T17:28:11+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-06-08T17:28:12+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0526s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-06-08T17:28:13+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 96 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 100 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 102 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-08T17:28:15+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 96 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 100 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 102 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-06-08T17:28:41+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-06-08T17:28:42+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-06-08T17:28:43+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-06-08T17:28:44+08:00 ] 127.0.0.1 /index.php/Admin/Age/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 模板不存在:F:/Home/Admin/View/Empty/error.html
+
+[ 2016-06-08T17:28:47+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-06-08T17:28:48+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-06-08T17:28:48+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0047s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-06-08T17:28:49+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-06-08T17:28:50+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0050s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-06-08T17:30:21+08:00 ] 127.0.0.1 /index.php/Admin/Furniture/furniture.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0059s ]
+SQL: SELECT t1.*,t2.name as cate_name FROM hf_furniture as t1,hf_category as t2 WHERE ( t1.cate_id = t2.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-06-08T17:30:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-06-08T17:30:23+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0043s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-06-08T17:30:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `hf_category` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: show F:\Home\Runtime\Cache\Admin\b5a303a76e63c9d5e8d20284350274ba.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-06-08T17:30:26+08:00 ] 127.0.0.1 /index.php/Admin/Dept/dept.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `hf_dept` [ RunTime:0.0045s ]
+SQL: SELECT t1.*,t2.name as pname FROM hf_dept t1 left join hf_dept as t2 on t1.pid=t2.id  ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: cate F:\Home\Runtime\Cache\Admin\4d91c5ab054da70a500180ebca71e992.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2016-06-08T17:30:28+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `hf_user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_user` LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hf_dept` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: username F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 97 行.
+NOTIC: [8] Undefined index: nickname F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 98 行.
+NOTIC: [8] Undefined index: birthday F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 101 行.
+NOTIC: [8] Undefined index: email F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 103 行.
+NOTIC: [8] Undefined index: addtime F:\Home\Runtime\Cache\Admin\72591cc07db2957ebbc5ee1cbbed9138.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-06-08T17:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Age/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `hf_message` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hf_message` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hf_message` ORDER BY isread asc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-06-08T17:30:31+08:00 ] 127.0.0.1 /index.php/Admin/Age/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+ERR: 模板不存在:F:/Home/Admin/View/Empty/error.html
+
