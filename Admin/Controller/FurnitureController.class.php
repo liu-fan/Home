@@ -17,19 +17,44 @@ use Think\Upload;
 class FurnitureController extends Controller
 {
     //家居详情页显示
-   /* public function furniture()
+    //查询页
+    public function furniture()
     {
-        $model = M('furniture');
+        $post = I('post.');
+        $key = '';
+        $a = '';
+        if(IS_GET){
+            $post['search-sort'] =I('get.search_sort');
+            $post['keywords'] =I('get.keywords');
+        }
+        if ($post['keywords'] == '' && $post['search-sort'] == ''){
+            $where = 't1.cate_id = t2.id';
+            $url = '';
+        }elseif($post['keywords'] != '' && $post['search-sort']!= ''){
+            $a  = $post['search-sort'];
+            $key = $post['keywords'];
+            $where = "t1.cate_id = t2.id and t1.cate_id = {$a} and t1.name like '%{$key}%'";
+            $url = array('keywords' => $key,'search_sort' => $a);
+        } elseif ($post['search-sort'] == ''){
+            $key = $post['keywords'];
+            $where = "t1.cate_id = t2.id and t1.name like '%{$key}%'";
+            $url = array('keywords' => $key);
+        }elseif ($post['keywords'] == ''){
+            $a = $post['search-sort'];
+            $where = "t1.cate_id = t2.id and t1.cate_id = {$a}";
+            $url = array('search_sort' => $a);
+        }
+        $model = M('Furniture');
         //分页
-        $count = $model ->count();
+        $count = $model ->table('hf_furniture as t1,hf_category as t2')->where($where)->count();
         //分页类
-        $page = new Page($count,2);
+        $page = new Page($count,2,$url);
         // select t1.*,t2.name as cate_name from furniture as t1 left join category as t2 on t1.cate_id = t2.id
         $ret = $model->field('t1.*,t2.name as cate_name')
-                    ->table('hf_furniture as t1,hf_category as t2')
-                    ->where('t1.cate_id = t2.id')
-                    ->limit($page->firstRow,$page->listRows)
-                    ->select();
+            ->table('hf_furniture as t1,hf_category as t2')
+            ->where($where)
+            ->limit($page->firstRow,$page->listRows)
+            ->select();
         //设置按钮显示数字
         $page -> lastSuffix = false;
         $page -> setConfig('prev','上一页');
@@ -43,11 +68,16 @@ class FurnitureController extends Controller
         $arr = $cate->select();
         load('@/tree');
         $cte = getTree($arr);
+        //dump($key);die;
+        $this->assign('a',$a);
+        $this->assign('keywords',$key);
+        $this->assign('post',$post);
         $this->assign('cate',$cte);
         $this->assign('page',$show);
         $this->assign('data',$ret);
         $this->display();
-    }*/
+    }
+
     //家居添加页
     public function add()
     {
@@ -156,64 +186,7 @@ class FurnitureController extends Controller
         }
     }
 
-    //查询页
-    public function furniture()
-    {
-        $post = I('post.');
-        if(IS_GET){
-            $post['search-sort'] =I('get.search_sort');
-            $post['keywords'] =I('get.keywords');
-        }
-        if ($post['search-sort'] == ''){
-            $key = $post['keywords'];
-            $where = "t1.cate_id = t2.id and t1.name like '%{$key}%'";
-            $url = array('keywords' => $key);
-        }elseif ($post['keywords'] == ''){
-            $a = $post['search-sort'];
-            $where = "t1.cate_id = t2.id and t1.cate_id = {$a}";
-            $url = array('search_sort' => $a);
-        }elseif($post['keywords'] != '' && $post['search-sort']!= ''){
-            $a  = $post['search_sort'];
-            $key = $post['keywords'];
-            $where = "t1.cate_id = t2.id and t1.cate_id = {$a} and t1.name like '%{$key}%'";
-            $url = array('keywords' => $key,'search_sort' => $a);
-        }else{
-            $where = 't1.cate_id = t2.id';
-            $url = '';
-        }
-        $model = M('Furniture');
-        //分页
-        $count = $model ->table('hf_furniture as t1,hf_category as t2')->where($where)->count();
-        //分页类
-        $page = new Page($count,2,$url);
-        // select t1.*,t2.name as cate_name from furniture as t1 left join category as t2 on t1.cate_id = t2.id
-        $ret = $model->field('t1.*,t2.name as cate_name')
-            ->table('hf_furniture as t1,hf_category as t2')
-            ->where($where)
-            ->limit($page->firstRow,$page->listRows)
-            ->select();
-        //设置按钮显示数字
-        $page -> lastSuffix = false;
-        $page -> setConfig('prev','上一页');
-        $page -> setConfig('next','下一页');
-        $page -> setConfig('first','首页');
-        $page -> setConfig('last','末页');
-        //输出page
-        $show = $page->show();
-        //搜素栏的种类项
-        $cate = M('Category');
-        $arr = $cate->select();
-        load('@/tree');
-        $cte = getTree($arr);
-        $this->assign('a',$a);
-        $this->assign('key',$key);
-        $this->assign('post',$post);
-        $this->assign('cate',$cte);
-        $this->assign('page',$show);
-        $this->assign('data',$ret);
-        $this->display();
-    }
-
+   
     //搜索的无刷新分页
     public function text($page=1,$pagesize=20)
     {
