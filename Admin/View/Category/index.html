@@ -66,7 +66,7 @@
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">商品分类管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="{:U('Index/index')}">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">商品分类管理</span></div>
         </div>
         <div class="result-wrap">
             <form name="myform" id="myform" method="post">
@@ -79,21 +79,21 @@
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
+                            <th> <input type="checkbox" value="" /></th>
                             <th>ID</th>
                             <th>分类</th> 
                             <th>操作</th>
                         </tr>
                         <volist name="str" id="vol">
                         <tr>
-                             
+                            <td> <input type="checkbox" value="{$vol.id}" /></td>
                             <td>{$vol.id}</td>
                             <td>
                                 {$vol.level|str_repeat='&emsp;',### * 2}
                                 {$vol.name}
                             </td>
                             <td>
-                                <input type="checkbox" value="{$vol.id}" />
-                                <a href="__CONTROLLER__/del/ids/{$vol.id}" s> | 删除</a>
+                                <a href="__CONTROLLER__/del/ids/{$vol.id}" s>  删除</a>
                                 <a href="__CONTROLLER__/edit/id/{$vol.id}" s> | 编辑</a>
                             </td>
                         </tr>

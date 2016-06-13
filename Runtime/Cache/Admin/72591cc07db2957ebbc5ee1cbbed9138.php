@@ -79,6 +79,7 @@
                     <table class="result-tab" width="100%">
                         <thead>
                         <tr>
+                            <th class="operate">操作</th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
                             <th class="nickname">昵称</th>
@@ -88,11 +89,13 @@
                             <th class="tel">电话</th>
                             <th class="email">邮箱</th>
                             <th class="addtime">添加时间</th>
-                            <th class="operate">操作</th>
                         </tr>
                         </thead>
                         <tbody>
                         <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                <td class="operate">
+                                    <input type="checkbox" value="<?php echo ($vo["id"]); ?>"/>
+                                </td>
                                 <td class="id"><?php echo ($vo["id"]); ?></td>
                                 <td class="name"><?php echo ($vo["username"]); ?></td>
                                 <td class="nickname"><?php echo ($vo["nickname"]); ?></td>
@@ -102,9 +105,6 @@
                                 <td class="tel"><?php echo ($vo["tel"]); ?></td>
                                 <td class="email"><?php echo ($vo["email"]); ?></td>
                                 <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
-                                <td class="operate">
-                                    <input type="checkbox" value="<?php echo ($vo["id"]); ?>"/>
-                                </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

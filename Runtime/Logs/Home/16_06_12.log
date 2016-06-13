@@ -1,0 +1,357 @@
+[ 2016-06-12T08:19:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008964s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.1116s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053647s ]
+
+[ 2016-06-12T08:22:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-06-12T08:44:09+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-06-12T08:44:09+08:00 ] 127.0.0.1 /index.php/Home/Index/http//fonts.googleapis.com/css?family=Asap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+ERR: 非法操作:http
+
+[ 2016-06-12T08:44:09+08:00 ] 127.0.0.1 /index.php/Home/Index/__PUBLIC__/Home/images/page4_img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-06-12T08:44:09+08:00 ] 127.0.0.1 /index.php/Home/Index/__PUBLIC__/Home/images/page4_img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-06-12T11:59:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.474575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.124671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.124837s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:3.9982s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.1371s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000818s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.471314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.471430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038410s ]
+
+[ 2016-06-12T19:20:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0718s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017099s ]
+
+[ 2016-06-12T19:42:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-06-12T19:42:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-06-12T19:56:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-06-12T19:58:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-06-12T19:58:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-06-12T19:59:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-06-12T20:07:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0912s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2016-06-12T20:07:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.1034s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>后台管理</title>
+    <title>LEFT后台管理</title>
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/main.css"/>
     <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
@@ -14,10 +14,9 @@
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
-            <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
             <ul class="navbar-list clearfix">
-                <li><a class="on" href="index.html">首页</a></li>
-                <li><a href="http://www.mycodes.net/" target="_blank">网站首页</a></li>
+                <li><a class="on" href="<?php echo U('Index/index');?>">首页</a></li>
+                <li><a href="<?php echo U('Home/Index/index');?>" target="_blank">网站首页</a></li>
             </ul>
         </div>
         <div class="top-info-wrap">
@@ -100,6 +99,7 @@
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
+                            <th> <input type="checkbox" value="" /></th>
                             <th>ID</th>
                             <th>发信人</th>
                             <th>Email</th>
@@ -110,7 +110,7 @@
                             <th>操作</th>
                         </tr>
                         <?php if(is_array($str)): $i = 0; $__LIST__ = $str;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
-                             
+                            <td> <input type="checkbox" value="<?php echo ($vol["id"]); ?>" /></td>
                             <td><?php echo ($vol["id"]); ?></td>
                             <td><?php echo ($vol["name"]); ?></td>
                             <td><?php echo ($vol["email"]); ?></td>
@@ -122,7 +122,7 @@
                                 <?php if($vol["isread"] == 2): ?><a href="/index.php/Admin/Age/edit/id/<?php echo ($vol["id"]); ?>/isread/2" style="color: green" >已回复</a><?php endif; ?>
                             </td>
                             <td>
-                                <input type="checkbox" value="<?php echo ($vol["id"]); ?>" />
+
                                 <a href ='javascript:;' class="view" data="<?php echo ($vol["id"]); ?>" data-name="<?php echo ($vol["name"]); ?>">查看</a>
                                 <a href="/index.php/Admin/Age/del/ids/<?php echo ($vol["id"]); ?>" s>删除</a>
                             </td>

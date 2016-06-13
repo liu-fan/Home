@@ -79,6 +79,7 @@
                     <table class="result-tab" width="100%">
                         <thead>
                         <tr>
+                            <th class="operate">操作</th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
                             <th class="nickname">昵称</th>
@@ -88,12 +89,14 @@
                             <th class="tel">电话</th>
                             <th class="email">邮箱</th>
                             <th class="addtime">添加时间</th>
-                            <th class="operate">操作</th>
                         </tr>
                         </thead>
                         <tbody>
                         <volist name='data' id='vo'>
                             <tr>
+                                <td class="operate">
+                                    <input type="checkbox" value="{$vo.id}"/>
+                                </td>
                                 <td class="id">{$vo.id}</td>
                                 <td class="name">{$vo.username}</td>
                                 <td class="nickname">{$vo.nickname}</td>
@@ -103,9 +106,6 @@
                                 <td class="tel">{$vo.tel}</td>
                                 <td class="email">{$vo.email}</td>
                                 <td class="addtime">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
-                                <td class="operate">
-                                    <input type="checkbox" value="{$vo.id}"/>
-                                </td>
                             </tr>
                         </volist>
                         </tbody>

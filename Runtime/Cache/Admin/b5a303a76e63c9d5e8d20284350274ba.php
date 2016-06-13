@@ -66,7 +66,7 @@
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">商品分类管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Index/index');?>">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">商品分类管理</span></div>
         </div>
         <div class="result-wrap">
             <form name="myform" id="myform" method="post">
@@ -79,20 +79,20 @@
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
+                            <th> <input type="checkbox" value="" /></th>
                             <th>ID</th>
                             <th>分类</th> 
                             <th>操作</th>
                         </tr>
                         <?php if(is_array($str)): $i = 0; $__LIST__ = $str;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
-                             
+                            <td> <input type="checkbox" value="<?php echo ($vol["id"]); ?>" /></td>
                             <td><?php echo ($vol["id"]); ?></td>
                             <td>
                                 <?php echo (str_repeat('&emsp;',$vol["level"] * 2)); ?>
                                 <?php echo ($vol["name"]); ?>
                             </td>
                             <td>
-                                <input type="checkbox" value="<?php echo ($vol["id"]); ?>" />
-                                <a href="/index.php/Admin/Category/del/ids/<?php echo ($vol["id"]); ?>" s> | 删除</a>
+                                <a href="/index.php/Admin/Category/del/ids/<?php echo ($vol["id"]); ?>" s>  删除</a>
                                 <a href="/index.php/Admin/Category/edit/id/<?php echo ($vol["id"]); ?>" s> | 编辑</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>

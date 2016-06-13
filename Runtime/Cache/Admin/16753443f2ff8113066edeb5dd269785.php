@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>『豪情』后台管理</title>
+    <title>LEFT后台管理</title>
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/main.css"/>
     <script type="text/javascript" src="/Public/Admin/js/libs/modernizr.min.js"></script>
@@ -38,7 +38,7 @@
                     <ul class="sub-menu">
                         <li><a href="<?php echo U('Furniture/furniture');?>"><i class="icon-font">&#xe008;</i>家居管理</a></li>
                         <li><a href="<?php echo U('Category/index');?>"><i class="icon-font">&#xe006;</i>分类管理</a></li>
-                        <li><a href="<?php echo U('Category/index');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
+                        <li><a href="<?php echo U('Dept/dept');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
                         <li><a href="<?php echo U('User/showList');?>"><i class="icon-font">&#xe012;</i>用户管理</a></li>
                         <li><a href="<?php echo U('Age/index');?>"><i class="icon-font">&#xe004;</i>留言管理</a></li>
                         <li><a href="design.html"><i class="icon-font">&#xe052;</i>友情链接</a></li>
@@ -59,7 +59,7 @@
     <!--/sidebar-->
     <div class="main-wrap">
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>欢迎使用『豪情』博客程序，建博的首选工具。</span></div>
+            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>欢迎使用</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-title">

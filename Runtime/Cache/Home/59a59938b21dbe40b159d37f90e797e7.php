@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title></title>
+  <title>L-H&F</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/Public/Home/css/reset.css" type="text/css" media="all">
   <link href='http//fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
@@ -41,7 +41,7 @@
 		<div class="main">
 			<!--header -->
 			<header>
-				<h1><a href="#close" id="logo">Interior Design</a></h1>
+				<h1><a href="#close" id="logo">LEFT HOME FURNITURE</a></h1>
 				<nav class="menu">
 					<ul id="menu">
 						<li><a href="#!/page_About">关于我们</a></li>
@@ -283,7 +283,7 @@
 								</div>
 								<div class="col1 pad_left1">
 									<h2>联系我们</h2>
-
+									<a href="<?php echo U('Admin/Index/index');?>">后台管理</a>
 									<hr>
 									<!--<figure class="google_map"></figure>-->
 									地址 &nbsp;&nbsp;  : &nbsp;&nbsp;  北京LEFT家居公司<br>

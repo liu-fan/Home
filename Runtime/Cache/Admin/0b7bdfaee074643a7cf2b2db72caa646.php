@@ -55,11 +55,11 @@
 				<li>
 					<a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
 					<ul class="sub-menu">
-						<li><a href="<?php echo U('furniture');?>"><i class="icon-font">&#xe008;</i>家居管理</a></li>
-						<li><a href="design.html"><i class="icon-font">&#xe006;</i>分类管理</a></li>
-						<li><a href="design.html"><i class="icon-font">&#xe005;</i>职位管理</a></li>
-						<li><a href="design.html"><i class="icon-font">&#xe012;</i>用户管理</a></li>
-						<li><a href="design.html"><i class="icon-font">&#xe004;</i>留言管理</a></li>
+						<li><a href="<?php echo U('Furniture/furniture');?>"><i class="icon-font">&#xe008;</i>家居管理</a></li>
+						<li><a href="<?php echo U('Category/index');?>"><i class="icon-font">&#xe006;</i>分类管理</a></li>
+						<li><a href="<?php echo U('Dept/dept');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
+						<li><a href="<?php echo U('User/showList');?>"><i class="icon-font">&#xe012;</i>用户管理</a></li>
+						<li><a href="<?php echo U('Age/index');?>"><i class="icon-font">&#xe004;</i>留言管理</a></li>
 						<li><a href="design.html"><i class="icon-font">&#xe052;</i>友情链接</a></li>
 					</ul>
 				</li>
