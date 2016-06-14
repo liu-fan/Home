@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2bf251-d7e4-4aac-81ef-e0a535634e84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/3ce14da4d8703d414beab5b1645f6bb3.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Home.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controller/DesignerController.class.php" afterPath="$PROJECT_DIR$/Admin/Controller/DesignerController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Age/index.html" afterPath="$PROJECT_DIR$/Admin/View/Age/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Category/add.html" afterPath="$PROJECT_DIR$/Admin/View/Category/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Category/edit.html" afterPath="$PROJECT_DIR$/Admin/View/Category/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Category/index.html" afterPath="$PROJECT_DIR$/Admin/View/Category/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Dept/add.html" afterPath="$PROJECT_DIR$/Admin/View/Dept/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Dept/dept.html" afterPath="$PROJECT_DIR$/Admin/View/Dept/dept.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Dept/edit.html" afterPath="$PROJECT_DIR$/Admin/View/Dept/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Designer/index.html" afterPath="$PROJECT_DIR$/Admin/View/Designer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Furniture/add.html" afterPath="$PROJECT_DIR$/Admin/View/Furniture/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Furniture/edit.html" afterPath="$PROJECT_DIR$/Admin/View/Furniture/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Furniture/furniture.html" afterPath="$PROJECT_DIR$/Admin/View/Furniture/furniture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Furniture/search.html" afterPath="$PROJECT_DIR$/Admin/View/Furniture/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/Admin/View/Index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/User/add.html" afterPath="$PROJECT_DIR$/Admin/View/User/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/User/chart.html" afterPath="$PROJECT_DIR$/Admin/View/User/chart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/User/edit.html" afterPath="$PROJECT_DIR$/Admin/View/User/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/View/User/showList.html" afterPath="$PROJECT_DIR$/Admin/View/User/showList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Admin/css/main.css" afterPath="$PROJECT_DIR$/Public/Admin/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/16753443f2ff8113066edeb5dd269785.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/16753443f2ff8113066edeb5dd269785.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/1e968c02e31869e417a141e1d7961c83.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/1e968c02e31869e417a141e1d7961c83.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/4d91c5ab054da70a500180ebca71e992.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/4d91c5ab054da70a500180ebca71e992.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/64bf61f3053441c0ae9d1c7cc0a93be5.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/64bf61f3053441c0ae9d1c7cc0a93be5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/72591cc07db2957ebbc5ee1cbbed9138.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/72591cc07db2957ebbc5ee1cbbed9138.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/b3b7a3084b56a95bd6b2424c18ff343b.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/b3b7a3084b56a95bd6b2424c18ff343b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/b5a303a76e63c9d5e8d20284350274ba.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/b5a303a76e63c9d5e8d20284350274ba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/ece67a332ff2e9cadc98e503bdf8f9e2.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/ece67a332ff2e9cadc98e503bdf8f9e2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Logs/Admin/16_06_14.log" afterPath="$PROJECT_DIR$/Runtime/Logs/Admin/16_06_14.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Logs/Home/16_06_14.log" afterPath="$PROJECT_DIR$/Runtime/Logs/Home/16_06_14.log" />
     </list>
     <ignored path="Home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,22 +194,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465899706436</updated>
-      <workItem from="1465899711099" duration="108000" />
+      <workItem from="1465899711099" duration="169000" />
     </task>
+    <task id="LOCAL-00001" summary="后台导航栏修改">
+      <created>1465899862321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465899862321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108000" />
+    <option name="totallyTimeSpent" value="169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1378" height="775" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25417298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119937696" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -259,6 +235,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="后台导航栏修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台导航栏修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
