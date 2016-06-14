@@ -62,17 +62,16 @@
                 <i class="icon-font"></i>
                 <a href="../index.html">首页</a>
                 <span class="crumb-step">&gt;</span>
-                <span class="crumb-name">职员管理</span>
+                <span class="crumb-name">设计师信息管理</span>
             </div>
         </div>
         <div class="result-wrap">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="__CONTROLLER__/add" class="add"><i class="icon-font"></i>添加职员信息</a>
-                        <a href="javascript:;" id="btnDel" class="del" ><i class="icon-font"></i>删除职员信息</a>
-                        <a href="javascript:;" id="btnedit" class="edit"><i class="icon-font"></i>编辑职员信息</a>
-                        <a href="__CONTROLLER__/chart" class="count"><i class="icon-font"></i>职员信息统计图表</a>
-                        <a href="javascript:;" class="check"><i class="icon-font"></i>审核信息</a>
+                        <a href="__CONTROLLER__/add" class="add"><i class="icon-font"></i>添加设计师信息</a>
+                        <a href="javascript:;" id="btnDel" class="del" ><i class="icon-font"></i>删除设计师信息</a>
+                        <a href="javascript:;" id="btnedit" class="edit"><i class="icon-font"></i>编辑设计师信息</a>
+                        <a href="__CONTROLLER__/chart" class="count"><i class="icon-font"></i>职员设计师统计图表</a>
                     </div>
                 </div>
                 <div class="result-content">
@@ -82,32 +81,12 @@
                             <th class="operate">操作</th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
-                            <th class="nickname">昵称</th>
-                            <th class="dept_id">所属部门</th>
-                            <th class="sex">性别</th>
-                            <th class="birthday">生日</th>
-                            <th class="tel">电话</th>
-                            <th class="email">邮箱</th>
-                            <th class="addtime">添加时间</th>
+                            <th class="email">头像</th>
+                            <th class="addtime">简介</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <volist name='data' id='vo'>
-                            <tr>
-                                <td class="operate">
-                                    <input type="checkbox" value="{$vo.id}"/>
-                                </td>
-                                <td class="id">{$vo.id}</td>
-                                <td class="name">{$vo.username}</td>
-                                <td class="nickname">{$vo.nickname}</td>
-                                <td class="dept_id">{$vo.dept_name}</td>
-                                <td class="sex">{$vo.sex}</td>
-                                <td class="birthday">{$vo.birthday}</td>
-                                <td class="tel">{$vo.tel}</td>
-                                <td class="email">{$vo.email}</td>
-                                <td class="addtime">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
-                            </tr>
-                        </volist>
+
                         </tbody>
                     </table>
                 </div>

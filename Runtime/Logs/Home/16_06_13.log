@@ -1,0 +1,71 @@
+[ 2016-06-13T19:00:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.1188s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.260981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-06-13T19:20:36+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `hf_designer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hf_designer`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hf_furniture` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hf_furniture`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: name F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 57 行.
+NOTIC: [8] Undefined variable: desshow F:\Home\Runtime\Cache\Home\59a59938b21dbe40b159d37f90e797e7.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2016-06-13T19:20:37+08:00 ] 127.0.0.1 /index.php/Home/Index/__PUBLIC__/Home/images/page4_img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-06-13T19:20:37+08:00 ] 127.0.0.1 /index.php/Home/Index/http//fonts.googleapis.com/css?family=Asap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+ERR: 非法操作:http
+
+[ 2016-06-13T19:20:37+08:00 ] 127.0.0.1 /index.php/Home/Index/__PUBLIC__/Home/images/page4_img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+

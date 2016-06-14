@@ -106,22 +106,27 @@ class FurnitureController extends Controller
                 //dump($info);
                 if($info){
                     $post['picture'] = UPLOAD_ROOT_PATH.$info['savepath'].$info['savename'];
-                    //缩略图
+                    //制作380*355图片
                     $im = new Image();
                     $im ->open(WORKING_PATH.$post['picture']);
-                    $im ->thumb(100,100);
+                    $im ->thumb(380,355);
+                    $im ->save(WORKING_PATH.UPLOAD_ROOT_PATH.$info['savepath'].'show_'.$info['savename']);
+                    $post['picture'] = UPLOAD_ROOT_PATH.$info['savepath'].'show_'.$info['savename'];
+                    //缩略图
+                    $im ->open(WORKING_PATH.$post['picture']);
+                    $im ->thumb(120,100);
                     $im ->save(WORKING_PATH.UPLOAD_ROOT_PATH.$info['savepath'].'thumb_'.$info['savename']);
                     //记录缩略图地址
                     $post['thumb'] = UPLOAD_ROOT_PATH.$info['savepath'].'thumb_'.$info['savename'];
                 }
-                $post['addtime'] = time();
-                $model = M('Furniture');
-                $ret = $model -> add($post);
-                if ($ret){
-                    $this->success('添加成功',U('furniture'),2);
-                }else{
-                    $this->error('删除失败',U('furniture'),2);
-                }
+            }
+            $post['addtime'] = time();
+            $model = M('Furniture');
+            $ret = $model -> add($post);
+            if ($ret){
+                $this->success('添加成功',U('furniture'),2);
+            }else{
+                $this->error('删除失败',U('furniture'),2);
             }
         }
     }
