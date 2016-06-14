@@ -40,7 +40,7 @@
                         <li><a href="{:U('Dept/dept')}"><i class="icon-font">&#xe005;</i>职位管理</a></li>
                         <li><a href="{:U('User/showList')}"><i class="icon-font">&#xe012;</i>用户管理</a></li>
                         <li><a href="{:U('Age/index')}"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href="{:U(Designer/index)}"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
+                        <li><a href="{:U('Designer/index')}"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
                     </ul>
                 </li>
                 <li>
@@ -78,15 +78,25 @@
                     <table class="result-tab" width="100%">
                         <thead>
                         <tr>
-                            <th class="operate">操作</th>
+                            <th> <input type="checkbox"></th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
                             <th class="email">头像</th>
                             <th class="addtime">简介</th>
+                            <th class="operate">操作</th>
                         </tr>
                         </thead>
                         <tbody>
-
+                        <volist name="data" id="vo">
+                            <tr>
+                            <td> <input type="checkbox" value="{$vo.id}"></td>
+                            <td class="id">{$vo.id}</td>
+                            <td class="name">{$vo.name}</td>
+                            <td class="email">{$vo.picture}</td>
+                            <td class="addtime">{$vo.dec}</td>
+                            <td class="operate">删除|编辑</td>
+                            </tr>
+                        </volist>
                         </tbody>
                     </table>
                 </div>

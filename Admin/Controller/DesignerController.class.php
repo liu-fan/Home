@@ -15,6 +15,14 @@ class DesignerController extends Controller
 {
     public function index()
     {
-       $this->display(); 
+        $model = M('Designer');
+        $re = $model->select();
+        if ($re){
+            $this->assign('data',$re);
+            $this->display();
+        }else{
+            $this->error('查询失败,请联系管理员',U('Index/index'),2);
+        }
+        
     }
 }

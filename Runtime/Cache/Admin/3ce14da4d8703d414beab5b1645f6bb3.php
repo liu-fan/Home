@@ -1,10 +1,10 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>后台管理</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/main.css"/>
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -35,12 +35,12 @@
                 <li>
                     <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
-                        <li><a href="{:U('Furniture/furniture')}"><i class="icon-font">&#xe008;</i>家居管理</a></li>
-                        <li><a href="{:U('Category/index')}"><i class="icon-font">&#xe006;</i>分类管理</a></li>
-                        <li><a href="{:U('Dept/dept')}"><i class="icon-font">&#xe005;</i>职位管理</a></li>
-                        <li><a href="{:U('User/showList')}"><i class="icon-font">&#xe012;</i>用户管理</a></li>
-                        <li><a href="{:U('Age/index')}"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href="{:U('Designer/index')}"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
+                        <li><a href="<?php echo U('Furniture/furniture');?>"><i class="icon-font">&#xe008;</i>家居管理</a></li>
+                        <li><a href="<?php echo U('Category/index');?>"><i class="icon-font">&#xe006;</i>分类管理</a></li>
+                        <li><a href="<?php echo U('Dept/dept');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
+                        <li><a href="<?php echo U('User/showList');?>"><i class="icon-font">&#xe012;</i>用户管理</a></li>
+                        <li><a href="<?php echo U('Age/index');?>"><i class="icon-font">&#xe004;</i>留言管理</a></li>
+                        <li><a href="<?php echo U('Designer/index');?>"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
                     </ul>
                 </li>
                 <li>
@@ -62,60 +62,47 @@
                 <i class="icon-font"></i>
                 <a href="../index.html">首页</a>
                 <span class="crumb-step">&gt;</span>
-                <span class="crumb-name">职员管理</span>
+                <span class="crumb-name">设计师信息管理</span>
             </div>
         </div>
         <div class="result-wrap">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="__CONTROLLER__/add" class="add"><i class="icon-font"></i>添加职员信息</a>
-                        <a href="javascript:;" id="btnDel" class="del" ><i class="icon-font"></i>删除职员信息</a>
-                        <a href="javascript:;" id="btnedit" class="edit"><i class="icon-font"></i>编辑职员信息</a>
-                        <a href="__CONTROLLER__/chart" class="count"><i class="icon-font"></i>职员信息统计图表</a>
-                        <a href="javascript:;" class="check"><i class="icon-font"></i>审核信息</a>
+                        <a href="/index.php/Admin/Designer/add" class="add"><i class="icon-font"></i>添加设计师信息</a>
+                        <a href="javascript:;" id="btnDel" class="del" ><i class="icon-font"></i>删除设计师信息</a>
+                        <a href="javascript:;" id="btnedit" class="edit"><i class="icon-font"></i>编辑设计师信息</a>
+                        <a href="/index.php/Admin/Designer/chart" class="count"><i class="icon-font"></i>职员设计师统计图表</a>
                     </div>
                 </div>
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <thead>
                         <tr>
-                            <th class="operate">操作</th>
+                            <th> <input type="checkbox"></th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
-                            <th class="nickname">昵称</th>
-                            <th class="dept_id">所属部门</th>
-                            <th class="sex">性别</th>
-                            <th class="birthday">生日</th>
-                            <th class="tel">电话</th>
-                            <th class="email">邮箱</th>
-                            <th class="addtime">添加时间</th>
+                            <th class="email">头像</th>
+                            <th class="addtime">简介</th>
+                            <th class="operate">操作</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <volist name='data' id='vo'>
-                            <tr>
-                                <td class="operate">
-                                    <input type="checkbox" value="{$vo.id}"/>
-                                </td>
-                                <td class="id">{$vo.id}</td>
-                                <td class="name">{$vo.username}</td>
-                                <td class="nickname">{$vo.nickname}</td>
-                                <td class="dept_id">{$vo.dept_name}</td>
-                                <td class="sex">{$vo.sex}</td>
-                                <td class="birthday">{$vo.birthday}</td>
-                                <td class="tel">{$vo.tel}</td>
-                                <td class="email">{$vo.email}</td>
-                                <td class="addtime">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
-                            </tr>
-                        </volist>
+                        <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                            <td> <input type="checkbox" value="<?php echo ($vo["id"]); ?>"></td>
+                            <td class="id"><?php echo ($vo["id"]); ?></td>
+                            <td class="name"><?php echo ($vo["name"]); ?></td>
+                            <td class="email"><?php echo ($vo["picture"]); ?></td>
+                            <td class="addtime"><?php echo ($vo["dec"]); ?></td>
+                            <td class="operate">删除|编辑</td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>
                 </div>
                 <div class="pagination ue-clear">
                     <div class="pagin-list">
-                        {$show}
+                        <?php echo ($show); ?>
                     </div>
-                    <div class="pxofy">显示第 1 条到 10 条记录，总共{$count}条记录</div>
+                    <div class="pxofy">显示第 1 条到 10 条记录，总共<?php echo ($count); ?>条记录</div>
                 </div>
             </form>
         </div>
@@ -123,8 +110,8 @@
     <!--/main-->
 </div>
 </body>
-<script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/libs/modernizr.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 <script type="text/javascript">
     $(".select-title").on("click",function(){
         $(".select-list").hide();
@@ -146,7 +133,7 @@
             //指定的事件处理程序
             var id = $(':checkbox:checked').val();	//获取复选框的值
             //跳转到编辑方法并且传递参数展示原有的信息
-            window.location.href = '__CONTROLLER__/edit/id/' + id;
+            window.location.href = '/index.php/Admin/Designer/edit/id/' + id;
         });
 
         //给删除按钮添加点击事件
@@ -160,7 +147,7 @@
             //去除最后一个英文逗号
             id = id.substring(0,id.length-1);
             //跳转到删除方法，实现删除指定id的记录
-            window.location.href = '__CONTROLLER__/delUser/id/' + id;
+            window.location.href = '/index.php/Admin/Designer/delUser/id/' + id;
         });
     });
 </script>

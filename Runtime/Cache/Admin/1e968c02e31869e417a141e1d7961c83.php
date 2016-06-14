@@ -43,7 +43,7 @@
                         <li><a href="<?php echo U('Dept/dept');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
                         <li><a href="<?php echo U('User/showList');?>"><i class="icon-font">&#xe012;</i>用户管理</a></li>
                         <li><a href="<?php echo U('Age/index');?>"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href="<?php echo U(Designer/index);?>"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
+                        <li><a href="<?php echo U('Designer/index');?>"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
                     </ul>
                 </li>
                 <li>
