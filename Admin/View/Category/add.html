@@ -81,7 +81,7 @@
                                         <option value="">请选择</option>
                                         <volist name="data" id="vol">
                                             <option value="{$vol.id}">
-                                                {$vol.ge|str_repeat='&nbsp;',### * 3}
+                                                {$vol.level|str_repeat='&nbsp;',### * 3}
                                                 {$vol.name}
                                             </option>
                                         </volist> 

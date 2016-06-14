@@ -48,7 +48,7 @@ class FurnitureController extends Controller
         //分页
         $count = $model ->table('hf_furniture as t1,hf_category as t2')->where($where)->count();
         //分页类
-        $page = new Page($count,2,$url);
+        $page = new Page($count,5,$url);
         // select t1.*,t2.name as cate_name from furniture as t1 left join category as t2 on t1.cate_id = t2.id
         $ret = $model->field('t1.*,t2.name as cate_name')
             ->table('hf_furniture as t1,hf_category as t2')
@@ -83,7 +83,9 @@ class FurnitureController extends Controller
     {
         $model = M('category');
         $arr = $model ->select();
-        $this->assign('data',$arr);
+        load('@/tree');
+        $str = getTree($arr);//无限极分类
+        $this->assign('data',$str);
         $this->display();
     }
 
@@ -179,14 +181,14 @@ class FurnitureController extends Controller
                     //记录缩略图地址
                     $post['thumb'] = UPLOAD_ROOT_PATH.$info['savepath'].'thumb_'.$info['savename'];
                 }
-                $post['addtime'] = time();
-                $model = M('Furniture');
-                $ret = $model -> save($post);
-                if ($ret){
-                    $this->success('修改成功',U('furniture'),2);
-                }else{
-                    $this->error('修改失败',U('furniture'),2);
-                }
+            }
+            $post['addtime'] = time();
+            $model = M('Furniture');
+            $ret = $model -> save($post);
+            if ($ret){
+                $this->success('修改成功',U('furniture'),2);
+            }else{
+                $this->error('修改失败',U('furniture'),2);
             }
         }
     }

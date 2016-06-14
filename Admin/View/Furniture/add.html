@@ -91,7 +91,10 @@
 					<div class="select-wrap" style="margin-top: 15px;margin-left: 85px;">
 						<select name="cate_id">
 							<volist name='data' id='vo'>
-								<option value="{$vo.id}">{$vo.name}</option>
+								<option value="{$vo.id}">
+									{$vo.level|str_repeat='&nbsp;',### * 3}
+									{$vo.name}
+								</option>
 							</volist>
 						</select>
 					</div>

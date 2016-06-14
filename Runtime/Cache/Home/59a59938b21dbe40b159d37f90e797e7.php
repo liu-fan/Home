@@ -4,7 +4,6 @@
   <title>L-H&F</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/Public/Home/css/reset.css" type="text/css" media="all">
-  <link href='http//fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/Public/Home/css/style.css" type="text/css" media="all">
   <script type="text/javascript" src="/Public/Home/js/jquery-1.6.js" ></script>
   <script type="text/javascript" src="/Public/Home/js/script.js"></script>
@@ -209,7 +208,7 @@
 								<h2>我们的设计师</h2>
 								<?php if(is_array($designer)): $i = 0; $__LIST__ = $designer;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$des): $mod = ($i % 2 );++$i;?><div class="col1">
 									<div class="wrapper">
-										<figure class="left marg_right1"><img src="/Public/Home/images/page4_img1.jpg" alt=""></figure>
+										<figure class="left marg_right1"><img src="" alt=""></figure>
 										<p class="pad_bot1"><strong><?php echo ($des["name"]); ?></strong><br>
 												</p>
 										<p class="pad_bot1"><?php echo (substr($des["des"],0,60)); ?></p>
@@ -357,7 +356,7 @@
 							<a href="#close" class="close"><span></span></a>
 							<div class="wrapper">
 								<h2><?php echo ($des["name"]); ?></h2>
-								<img src="<?php echo ($des["picture"]); ?>">
+								<!--<img src="<?php echo ($des["picture"]); ?>">-->
 								<p><?php echo ($des["des"]); ?></p>
 							</div>
 						</div>

@@ -60,13 +60,11 @@
 
             <div class="crumb-wrap">
                 <div class="crumb-list"><i class="icon-font"></i>
-                    <a href="/jscss/admin/design/">首页</a>
+                    <a href="{:U('Index/index')}">首页</a>
                     <span class="crumb-step">&gt;</span>
-                    <a class="crumb-name" href="/jscss/admin/design/">职员管理</a>
+                    <a class="crumb-name" href="{:U('User/showList')}">职员管理</a>
                     <span class="crumb-step">&gt;</span>
                     <span>新增职员</span>
-                    <input class="btn btn6" onclick="history.go(-1)" value="返回上一页" type="button">
-                    <a href="__CONTROLLER__/showList" class="btn btn6">返回职员信息列表</a>
                 </div>
             </div>
 
@@ -79,10 +77,6 @@
                                 <tr>
                                     <th>用户名：</th>
                                     <td><input class="common-text" name="username" size="50"  type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <th><i class="require-red">*</i>头像：</th>
-                                    <td><input name="smallimg" id="" type="file"><!--<input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/>--></td>
                                 </tr>
                                 <tr>
                                     <th>密码：</th>

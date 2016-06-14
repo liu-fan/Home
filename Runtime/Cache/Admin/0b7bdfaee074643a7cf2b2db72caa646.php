@@ -60,7 +60,7 @@
 						<li><a href="<?php echo U('Dept/dept');?>"><i class="icon-font">&#xe005;</i>职位管理</a></li>
 						<li><a href="<?php echo U('User/showList');?>"><i class="icon-font">&#xe012;</i>用户管理</a></li>
 						<li><a href="<?php echo U('Age/index');?>"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-						<li><a href="design.html"><i class="icon-font">&#xe052;</i>友情链接</a></li>
+						<li><a href="<?php echo U('Designer/index');?>"><i class="icon-font">&#xe052;</i>设计师信息</a></li>
 					</ul>
 				</li>
 				<li>
@@ -90,7 +90,10 @@
 					<label>所属类别：</label>
 					<div class="select-wrap" style="margin-top: 15px;margin-left: 85px;">
 						<select name="cate_id">
-							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>">
+									<?php echo (str_repeat('&nbsp;',$vo["level"] * 3)); ?>
+									<?php echo ($vo["name"]); ?>
+								</option><?php endforeach; endif; else: echo "" ;endif; ?>
 						</select>
 					</div>
 				</div>
