@@ -16,7 +16,8 @@ class IndexController extends Controller
         //显示附加产品(家具)的内容
         $furmodel = M('furniture');
         $furniture = $furmodel->select();
-        
+        $count = $furmodel->count('id');
+        $this->assign('count',$count);
         $this->assign('furniture', $furniture);
         $this->display();
     }

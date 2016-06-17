@@ -47,7 +47,7 @@
 						<li class="with_ul"><a href="#!/page_Services">服务内容</a>
 							<ul class="submenu_1">
 								<li><span></span><a href="#!/page_More1">家装指南</a></li>
-								<li><span></span><a href="#!/page_More2">装修设计</a></li>
+								<li><span></span><a href="#!/page_More20">装修设计</a></li>
 								<li><span></span><a href="#!/page_More3">配套产品</a></li>
 								<li><span></span><a href="#!/page_More4">无忧售后</a></li>
 							</ul>
@@ -120,7 +120,7 @@
 										<div class="col2">
 											<strong>装修设计</strong> <br>
 													我们有大量优秀的设计师，为您提供各种各样完美的设计<br>
-													<a href="#!/page_More2" class="link1">更多>></a>
+													<a href="#!/page_More20" class="link1">更多>></a>
 										</div>
 									</div>
 								</div>
@@ -162,26 +162,28 @@
 									<div id="caption">
 										<ul>
 											<li class="img1">
-												<p class="pad_bot1"><strong>样板 1</strong><br>
-														样板1的介绍.</p>
+												<p class="pad_bot1" style="font-size: 20px;"><strong>净、雅、简、白、时尚</strong><br /><br />
+													走廊，整个空间都是那么干净整洁。卧室的功能从未有太多的变化，它一直是睡眠、休息、存放衣物的主要场所，是居室中最个人化的空间。在这里同样采用“少即是多”来表现的这个卧室的主要功能性。</p>
 
 											</li>
 											<li class="img2">
-												<p class="pad_bot1"><strong>样板 2</strong><br>
-														样板2的介绍</p>
+												<p class="pad_bot1" style="font-size: 20px;"><strong>厨房也要色彩缤纷 就要这样的时尚感</strong><br><br />
+													缤纷的色彩能让紧绷的神经舒缓开来，如果你恰好喜欢多姿多彩的样式，那么在家居空间中也可以尽情发挥你的想象力。厨房是我们打造美食的地方，让这样空间充满缤纷色彩想必也是个性十足，今天我们就来看看这些色彩亮丽的厨房设计吧。</p>
 
 											</li>
 											<li class="img3">
-												<p class="pad_bot1"><strong>样板 3</strong><br>
-														样板3的介绍</p>
+												<p class="pad_bot1" style="font-size: 20px;"><strong>时尚的点缀，什么是主题餐厅</strong><br><br />
+													主题餐厅是透过一系列围绕一个或多个历史或其它的主题为吸引标志，向顾客提供饮食所需的基本场所。它的最大特点是赋予一般餐厅某种主题，使主题成为顾客容易识别餐厅的特征和产生消费行为的刺激物。</p>
 											</li>
 											<li class="img4">
-												<p class="pad_bot1"><strong>样板 4</strong><br>
-														样板4的介绍</p>
+												<p class="pad_bot1" style="font-size: 20px;"><strong>墙体彩绘刮起的一股时尚风</strong><br /><br />
+
+												墙体彩绘的特点观赏性，艺术性，现实性主题突出，颜色鲜艳可长久保存不掉色，无毒害可擦洗，易于清洁。画面表现形式多样，内容丰富，可以根据主题的不同进行内容更换，而且可以多次利用墙体。
+												</p>
 											</li>
 											<li class="img5">
-												<p class="pad_bot1"><strong>样板 5</strong><br>
-														样板5的介绍</p>
+												<p class="pad_bot1" style="font-size: 20px;"><strong>新中式风格</strong><br /><br />
+													新中式风格是中式元素与现代材质的巧妙兼柔，新中式的家具可为古典家具，或现代家具与古典家具相结合。使用"新中式"装饰风格，不仅需要对传统文化谙熟于心，而且要对室内设计有所了解，还要能让二者的结合相得益彰。</p>
 											</li>
 										</ul>
 									</div>
@@ -307,25 +309,73 @@
 					</div>
 					</li>
 					<!--装修设计页面-->
-					<li id="page_More2">
-						<div class="pad">
-							<a href="#close" class="close"><span></span></a>
-							<div class="wrapper">
-								<h2>大标题</h2>
-								案例名，图，，，详细内容
-								</p>
+					<?php if(is_array($furniture)): $i = 0; $__LIST__ = $furniture;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$fur): $mod = ($i % 2 );++$i; static $a = 0 ?>
+						<li id="page_More2<?php echo ($a); ?>">
+							<div class="pad">
+								<a href="#close" class="close"><span></span></a>
+								<div class="wrapper">
+										<figure class="left marg_right1">
+											<p><h2><?php echo ($fur["name"]); ?></h2></p>
+											<img src="<?php echo ($fur["picture"]); ?>" style="float:left; margin-right: 20px;">
+											<?php echo (htmlspecialchars_decode($fur["content"])); ?>
+										</figure>
+								</div>
+								<span style="padding-left: 200px;">
+									<a href="#!/page_More2<?php echo ($a-1); ?>" class="link1"> << 上一页</a>
+									<span style="color: #ff9821; padding-left: 50px ;padding-right: 50px;letter-spacing: 5px;">当前第<?php echo ($a+1); ?>页，共<?php echo ($count); ?>页</span>
+								<?php $a = $a+1 ?>
+								<a href="#!/page_More2<?php echo ($a); ?>" class="link1">下一页 >> </a>
+								</span>
 							</div>
-						</div>
-					</li>
+						</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					<!--配套产品页面-->
 					<li id="page_More3">
 					<div class="pad">
 						<a href="#close" class="close"><span></span></a>
 						<div class="wrapper">
-							<?php if(is_array($furniture)): $i = 0; $__LIST__ = $furniture;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$fur): $mod = ($i % 2 );++$i;?><figure class="left marg_right1"><p><?php echo ($fur["name"]); ?></p><img src="<?php echo ($fur["thumb"]); ?>"><?php echo ($fur["content"]); ?></figure><?php endforeach; endif; else: echo "" ;endif; ?>
-
-
+							<h2>我们所提供的</h2>
+							<div class="col1">
+								<div class="wrapper">
+									<figure class="left marg_right1"><img src="/Public/Home/images/page2_img1.png" alt=""></figure>
+									<div class="col2">
+										<p class="pad_bot1"><strong>床</strong> <br>
+											本网站为您介绍完整的家装指南<br>
+											<a href="#!/page_More1" class="link1">更多>></a></p>
+									</div>
+								</div>
+								<div class="wrapper">
+									<figure class="left marg_right1"><img src="/Public/Home/images/page2_img2.png" alt=""></figure>
+									<div class="col2">
+										<strong>餐桌</strong> <br>
+										我们有大量优秀的设计师，为您提供各种各样完美的设计<br>
+										<a href="#!/page_More20" class="link1">更多>></a>
+									</div>
+								</div>
+							</div>
+							<div class="col1 pad_left1">
+								<div class="wrapper">
+									<figure class="left marg_right1"><img src="/Public/Home/images/page2_img3.png" alt=""></figure>
+									<div class="col2">
+										<p class="pad_bot1"><strong>客厅</strong> <br>
+											我们为您提供最合适的配套产品，为每一位客户提供最大的便利<br>
+											<a href="#!/page_More3" class="link1">更多>></a></p>
+									</div>
+								</div>
+								<div class="wrapper">
+									<figure class="left marg_right1"><img src="/Public/Home/images/page2_img4.png" alt=""></figure>
+									<div class="col2">
+										<strong>卧室 </strong> <br>
+										本公司提供最优质的售后服务，力争做到<br>
+										<a href="#!/page_More4" class="link1">更多>></a>
+									</div>
+								</div>
+							</div>
 						</div>
+						<!--<div class="wrapper">
+							<h2>大标题</h2>
+							案例名，图，，，详细内容
+							</p>
+						</div>-->
 					</div>
 					</li>
 					<!--无忧售后页面-->
@@ -356,7 +406,7 @@
 							<a href="#close" class="close"><span></span></a>
 							<div class="wrapper">
 								<h2><?php echo ($des["name"]); ?></h2>
-								<!--<img src="<?php echo ($des["picture"]); ?>">-->
+								<img src="<?php echo ($des["picture"]); ?>">
 								<p><?php echo ($des["des"]); ?></p>
 							</div>
 						</div>
