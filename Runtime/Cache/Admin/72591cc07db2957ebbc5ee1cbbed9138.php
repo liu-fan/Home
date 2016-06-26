@@ -82,10 +82,8 @@
                             <th class="operate">操作</th>
                             <th class="id">序号</th>
                             <th class="name">姓名</th>
-                            <th class="nickname">昵称</th>
                             <th class="dept_id">所属部门</th>
                             <th class="sex">性别</th>
-                            <th class="birthday">生日</th>
                             <th class="tel">电话</th>
                             <th class="email">邮箱</th>
                             <th class="addtime">添加时间</th>
@@ -98,10 +96,8 @@
                                 </td>
                                 <td class="id"><?php echo ($vo["id"]); ?></td>
                                 <td class="name"><?php echo ($vo["username"]); ?></td>
-                                <td class="nickname"><?php echo ($vo["nickname"]); ?></td>
                                 <td class="dept_id"><?php echo ($vo["dept_name"]); ?></td>
                                 <td class="sex"><?php echo ($vo["sex"]); ?></td>
-                                <td class="birthday"><?php echo ($vo["birthday"]); ?></td>
                                 <td class="tel"><?php echo ($vo["tel"]); ?></td>
                                 <td class="email"><?php echo ($vo["email"]); ?></td>
                                 <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>

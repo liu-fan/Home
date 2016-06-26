@@ -28,6 +28,13 @@
 			<a href="http//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http//storage.ie6countdown.com/assets/100//Public/Home/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
 		</div>
 	<![endif]-->
+	<style>
+		.my-map { margin: 0 auto; width: 500.4px; height: 300.4px; }
+		.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+		.my-map .icon-flg { height: 32px; width: 29px; }
+		.my-map .icon-flg-red { background-position: -65px -5px; }
+		.amap-container{height: 100%;}
+	</style>
 </head>
 
 <body>
@@ -112,7 +119,7 @@
 										<div class="col2">
 											<p class="pad_bot1"><strong>家装指南</strong> <br>
 													本网站为您介绍完整的家装指南<br>
-													<a href="#!/page_More1" class="link1">更多>></a></p>
+													<a href="#!/col1 pad_left1" class="link1">更多>></a></p>
 										</div>
 									</div>
 									<div class="wrapper">
@@ -204,30 +211,58 @@
 						</div>
 					</li>
 					<li id="page_Clients">
-						<div class="pad" >
+						<div class="pad">
 							<a href="#close" class="close"><span></span></a>
 							<div class="wrapper">
-								<h2>我们的设计师</h2>
-								<?php if(is_array($designer)): $i = 0; $__LIST__ = $designer;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$des): $mod = ($i % 2 );++$i;?><div class="col1">
+								<h2>设计师团队</h2>
+								<div class="col1">
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="/Public/Home/images/page4_img1.jpg" alt=""></figure>
+										<p class="pad_bot1"><strong>Jason Blunt</strong><br>
+											CEO</p>
+										<p class="pad_bot1">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum.</p>
+										<p class="pad_bot1">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren.</p>
+										<a href="#!/page_More" class="link1">Read More</a>
+									</div>
+								</div>
+								<div class="col1 pad_left1">
+									<div class="wrapper">
+										<figure class="left marg_right1"><img src="/Public/Home/images/page4_img2.jpg" alt=""></figure>
+										<p class="pad_bot1"><strong>Jessy Williams</strong><br>
+											Artist</p>
+										<p class="pad_bot1">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+										<p class="pad_bot1">At vero eos et accusam et justo duo dolores et ea rebum tet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadip accusam aliquyam diam diam dolore dolores.</p>
+										<a href="#!/page_More" class="link1">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!--<li id="page_Clients">
+					<div class="pad" >
+						<a href="#close" class="close"><span></span></a>
+						<div class="wrapper">
+							<h2>我们的设计师</h2>
+							<?php if(is_array($designer)): $i = 0; $__LIST__ = $designer;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$des): $mod = ($i % 2 );++$i;?><div class="col1">
 									<div class="wrapper">
 										<figure class="left marg_right1"><img src="" alt=""></figure>
 										<p class="pad_bot1"><strong><?php echo ($des["name"]); ?></strong><br>
-												</p>
+										</p>
 										<p class="pad_bot1"><?php echo (substr($des["des"],0,60)); ?></p>
 										<a href="#!/page_More5<?php echo ($des["id"]); ?>" class="link1">点击了解</a>
 									</div>
 								</div><?php endforeach; endif; else: echo "" ;endif; ?>
-								<!--<div class="col1 pad_left1">-->
-									<!--<div class="wrapper">-->
-										<!--<figure class="left marg_right1"><img src="/Public/Home/images/123" alt=""></figure>-->
-										<!--<p class="pad_bot1"><strong>XXX</strong><br>-->
-											<!--中级设计师</p>-->
-										<!--<p class="pad_bot1">毕业于XXX大学,XX年设计经验，未曾获任何设计大奖。</p>-->
-										<!--<p class="pad_bot1">如果你没钱，就选这个设计师，为你打造最具性价比的设计</p>-->
-										<!--<a href="#!/page_More5" class="link1">点击了解</a>-->
-									<!--</div>-->
-								<!--</div>-->
-							</div>
+							&lt;!&ndash;<div class="col1 pad_left1">&ndash;&gt;
+							&lt;!&ndash;<div class="wrapper">&ndash;&gt;
+							&lt;!&ndash;<figure class="left marg_right1"><img src="/Public/Home/images/123" alt=""></figure>&ndash;&gt;
+							&lt;!&ndash;<p class="pad_bot1"><strong>XXX</strong><br>&ndash;&gt;
+							&lt;!&ndash;中级设计师</p>&ndash;&gt;
+							&lt;!&ndash;<p class="pad_bot1">毕业于XXX大学,XX年设计经验，未曾获任何设计大奖。</p>&ndash;&gt;
+							&lt;!&ndash;<p class="pad_bot1">如果你没钱，就选这个设计师，为你打造最具性价比的设计</p>&ndash;&gt;
+							&lt;!&ndash;<a href="#!/page_More5" class="link1">点击了解</a>&ndash;&gt;
+							&lt;!&ndash;</div>&ndash;&gt;
+							&lt;!&ndash;</div>&ndash;&gt;
+						</div>
 							<div style="float: right"><?php echo ($desshow); ?></div>
 							<script>$(function(){
 								$('.task_page a').click(function(){
@@ -239,7 +274,7 @@
 							})
 							</script>
 						</div>
-					</li>
+					</li>-->
 					<li id="page_Contacts">
 						<div class="pad">
 							<a href="#close" class="close"><span></span></a>
@@ -284,7 +319,11 @@
 								</div>
 								<div class="col1 pad_left1">
 									<h2>联系我们</h2>
-									<a href="<?php echo U('Admin/Index/index');?>">后台管理</a>
+									<div id="wrap" class="my-map">
+										<div id="mapContainer"></div>
+									</div>
+
+									<a href="<?php echo U('Login/login');?>">后台管理</a>
 									<hr>
 									<!--<figure class="google_map"></figure>-->
 									地址 &nbsp;&nbsp;  : &nbsp;&nbsp;  北京LEFT家居公司<br>
